@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root{
+    --navbar-height:59px;
+}
+.navbar {
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+.pic{
+    margin:15px 22px;  
+}
+.pic img{
+    border: 1rem; 
+    border-radius: 65px;
+    /* margin-top: 1px; */
+    margin-bottom: 10px;
+}
+.navbar  ul{
+    display: flex;
+    font-size: 1.8em;
+}
+/* .navbar::before{
+    content: "";
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+     */
+.navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.navbar ul li a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    margin-top: 30px;
+    float: left;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: rgb(0, 247, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.home{
+    width: 100%;
+}
+.home img{
+    width: 100%;
+}
+.food{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.foods{
+    width: 310px;
+    margin: 10px;
+}
+.catalog{
+    font-size: 40px;
+}
+.food .btr{
+    border: 4px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
